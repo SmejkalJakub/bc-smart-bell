@@ -1,0 +1,9 @@
+article: https://www.bigclown.com/doc/projects/radio-smart-led-strip/
+video: https://youtu.be/idxAoc2q6O0
+images:
+  - title:
+    url: https://www.bigclown.com/doc/projects/radio-smart-led-strip/project-thermostat-relay-bc.png
+assembly:
+  - name: BigClown Cover Module
+  - name: BigClown Core Module
+  - name: BigClown Power Module
