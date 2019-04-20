@@ -25,8 +25,6 @@ void button_event_handler(bc_button_t *self, bc_button_event_t event, void *even
 
 void application_init(void)
 {
-    bc_log_init(BC_LOG_LEVEL_DUMP, BC_LOG_TIMESTAMP_ABS);
-
     // Initialize Relay Module
     bc_module_relay_init(&relay, 0x3B);
 
@@ -34,10 +32,11 @@ void application_init(void)
     bc_module_battery_init();
 
     // Initialize radio
-    bc_radio_pairing_request("smart-bell", VERSION);
     bc_radio_init(BC_RADIO_MODE_NODE_SLEEPING);
+    bc_radio_pairing_request("smart-bell", VERSION);
 
     // Initialize button
     bc_button_init(&button, BC_GPIO_BUTTON, BC_GPIO_PULL_DOWN, false);
     bc_button_set_event_handler(&button, button_event_handler, NULL);
+
 }
