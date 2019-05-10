@@ -27164,118 +27164,118 @@ OUTPUT(out/debug/firmware.elf elf32-littlearm)
  .debug_line    0x00016f97      0x5b3 obj/debug/sdk/sys/src/system_stm32l0xx.o
  .debug_line    0x0001754a       0x80 obj/debug/sdk/sys/src/startup_stm32l083xx.o
 
-.debug_str      0x00000000    0x98c8c
- .debug_str     0x00000000    0x7fca1 obj/debug/app/application.o
-                              0x80173 (size before relaxing)
- .debug_str     0x0007fca1      0xadc obj/debug/sdk/bcl/src/bc_ir_rx.o
+.debug_str      0x00000000    0x98cbc
+ .debug_str     0x00000000    0x7fcac obj/debug/app/application.o
+                              0x8017e (size before relaxing)
+ .debug_str     0x0007fcac      0xb01 obj/debug/sdk/bcl/src/bc_ir_rx.o
                               0x7f3b3 (size before relaxing)
- .debug_str     0x0008077d      0x28d obj/debug/sdk/bcl/src/bc_module_relay.o
+ .debug_str     0x000807ad      0x28d obj/debug/sdk/bcl/src/bc_module_relay.o
                                0x94dd (size before relaxing)
- .debug_str     0x00080a0a      0x211 obj/debug/sdk/bcl/src/bc_led.o
+ .debug_str     0x00080a3a      0x211 obj/debug/sdk/bcl/src/bc_led.o
                                0x93b5 (size before relaxing)
- .debug_str     0x00080c1b      0x914 obj/debug/sdk/bcl/src/bc_radio_node.o
+ .debug_str     0x00080c4b      0x914 obj/debug/sdk/bcl/src/bc_radio_node.o
                                0x9ab0 (size before relaxing)
- .debug_str     0x0008152f      0x197 obj/debug/sdk/bcl/src/bc_button.o
+ .debug_str     0x0008155f      0x197 obj/debug/sdk/bcl/src/bc_button.o
                                0x9501 (size before relaxing)
- .debug_str     0x000816c6      0xaaa obj/debug/sdk/bcl/src/bc_module_battery.o
+ .debug_str     0x000816f6      0xaaa obj/debug/sdk/bcl/src/bc_module_battery.o
                               0x7f39b (size before relaxing)
- .debug_str     0x00082170      0x24d obj/debug/sdk/bcl/src/bc_ds28e17.o
+ .debug_str     0x000821a0      0x24d obj/debug/sdk/bcl/src/bc_ds28e17.o
                                0x93e6 (size before relaxing)
- .debug_str     0x000823bd      0x5a5 obj/debug/sdk/bcl/src/bc_radio_pub.o
+ .debug_str     0x000823ed      0x5a5 obj/debug/sdk/bcl/src/bc_radio_pub.o
                                0x9ae4 (size before relaxing)
- .debug_str     0x00082962       0x9d obj/debug/sdk/bcl/src/bc_fifo.o
+ .debug_str     0x00082992       0x9d obj/debug/sdk/bcl/src/bc_fifo.o
                                0x8e42 (size before relaxing)
- .debug_str     0x000829ff      0x546 obj/debug/sdk/bcl/src/bc_system.o
+ .debug_str     0x00082a2f      0x546 obj/debug/sdk/bcl/src/bc_system.o
                               0x7edd4 (size before relaxing)
- .debug_str     0x00082f45      0x2b0 obj/debug/sdk/bcl/src/bc_onewire.o
+ .debug_str     0x00082f75      0x2b0 obj/debug/sdk/bcl/src/bc_onewire.o
                               0x7ec55 (size before relaxing)
- .debug_str     0x000831f5      0x8c9 obj/debug/sdk/bcl/src/bc_uart.o
+ .debug_str     0x00083225      0x8c9 obj/debug/sdk/bcl/src/bc_uart.o
                               0x7f470 (size before relaxing)
- .debug_str     0x00083abe      0x350 obj/debug/sdk/bcl/src/bc_atsha204.o
+ .debug_str     0x00083aee      0x350 obj/debug/sdk/bcl/src/bc_atsha204.o
                                0x930c (size before relaxing)
- .debug_str     0x00083e0e      0x3e1 obj/debug/sdk/bcl/src/bc_dma.o
+ .debug_str     0x00083e3e      0x3e1 obj/debug/sdk/bcl/src/bc_dma.o
                               0x7f06f (size before relaxing)
- .debug_str     0x000841ef      0x201 obj/debug/sdk/bcl/src/bc_log.o
+ .debug_str     0x0008421f      0x201 obj/debug/sdk/bcl/src/bc_log.o
                                0x9446 (size before relaxing)
- .debug_str     0x000843f0      0x4cd obj/debug/sdk/bcl/src/bc_gpio.o
+ .debug_str     0x00084420      0x4cd obj/debug/sdk/bcl/src/bc_gpio.o
                               0x7ecdb (size before relaxing)
- .debug_str     0x000848bd       0xdb obj/debug/sdk/bcl/src/bc_exti.o
+ .debug_str     0x000848ed       0xdb obj/debug/sdk/bcl/src/bc_exti.o
                               0x7ece0 (size before relaxing)
- .debug_str     0x00084998      0x9ce obj/debug/sdk/bcl/src/bc_radio.o
+ .debug_str     0x000849c8      0x9ce obj/debug/sdk/bcl/src/bc_radio.o
                                0xaa40 (size before relaxing)
- .debug_str     0x00085366       0xae obj/debug/sdk/bcl/src/bc_scheduler.o
+ .debug_str     0x00085396       0xae obj/debug/sdk/bcl/src/bc_scheduler.o
                                0x90b7 (size before relaxing)
- .debug_str     0x00085414       0x50 obj/debug/sdk/bcl/src/bc_irq.o
+ .debug_str     0x00085444       0x50 obj/debug/sdk/bcl/src/bc_irq.o
                               0x7e4b6 (size before relaxing)
- .debug_str     0x00085464      0x28a obj/debug/sdk/bcl/src/bc_tca9534a.o
+ .debug_str     0x00085494      0x28a obj/debug/sdk/bcl/src/bc_tca9534a.o
                                0x91e1 (size before relaxing)
- .debug_str     0x000856ee      0x56d obj/debug/sdk/bcl/src/bc_module_sensor.o
+ .debug_str     0x0008571e      0x56d obj/debug/sdk/bcl/src/bc_module_sensor.o
                                0x9907 (size before relaxing)
- .debug_str     0x00085c5b       0x1f obj/debug/sdk/bcl/src/bc_queue.o
+ .debug_str     0x00085c8b       0x1f obj/debug/sdk/bcl/src/bc_queue.o
                                0x8e13 (size before relaxing)
- .debug_str     0x00085c7a      0x430 obj/debug/sdk/bcl/src/bc_ws2812b.o
+ .debug_str     0x00085caa      0x430 obj/debug/sdk/bcl/src/bc_ws2812b.o
                               0x7f495 (size before relaxing)
- .debug_str     0x000860aa      0x3f2 obj/debug/sdk/bcl/src/bc_i2c.o
+ .debug_str     0x000860da      0x3f2 obj/debug/sdk/bcl/src/bc_i2c.o
                               0x7f0ab (size before relaxing)
- .debug_str     0x0008649c       0x2d obj/debug/sdk/bcl/src/bc_tick.o
+ .debug_str     0x000864cc       0x2d obj/debug/sdk/bcl/src/bc_tick.o
                               0x7e4f4 (size before relaxing)
- .debug_str     0x000864c9       0xaf obj/debug/sdk/bcl/src/bc_timer.o
+ .debug_str     0x000864f9       0xaf obj/debug/sdk/bcl/src/bc_timer.o
                               0x7e672 (size before relaxing)
- .debug_str     0x00086578     0xcb69 obj/debug/sdk/bcl/src/bc_spirit1.o
+ .debug_str     0x000865a8     0xcb69 obj/debug/sdk/bcl/src/bc_spirit1.o
                               0x8bc74 (size before relaxing)
- .debug_str     0x000930e1      0x3a4 obj/debug/sdk/bcl/src/bc_adc.o
+ .debug_str     0x00093111      0x3a4 obj/debug/sdk/bcl/src/bc_adc.o
                               0x4454c (size before relaxing)
- .debug_str     0x00093485      0x18f obj/debug/sdk/bcl/src/bc_eeprom.o
+ .debug_str     0x000934b5      0x18f obj/debug/sdk/bcl/src/bc_eeprom.o
                               0x7e81f (size before relaxing)
- .debug_str     0x00093614       0x38 obj/debug/sdk/bcl/stm/src/main.o
+ .debug_str     0x00093644       0x38 obj/debug/sdk/bcl/stm/src/main.o
                               0x7eab2 (size before relaxing)
- .debug_str     0x0009364c      0x364 obj/debug/sdk/bcl/stm/src/stm32l0xx_it.o
+ .debug_str     0x0009367c      0x364 obj/debug/sdk/bcl/stm/src/stm32l0xx_it.o
                               0x7cb84 (size before relaxing)
- .debug_str     0x000939b0     0x1405 obj/debug/sdk/bcl/stm/src/usbd_conf.o
+ .debug_str     0x000939e0     0x1405 obj/debug/sdk/bcl/stm/src/usbd_conf.o
                               0x7e2d7 (size before relaxing)
- .debug_str     0x00094db5      0x1d8 obj/debug/sdk/stm/hal/src/stm32l0xx_hal_pcd_ex.o
+ .debug_str     0x00094de5      0x1d8 obj/debug/sdk/stm/hal/src/stm32l0xx_hal_pcd_ex.o
                               0x7cd15 (size before relaxing)
- .debug_str     0x00094f8d      0x1b9 obj/debug/sdk/stm/hal/src/stm32l0xx_hal_cortex.o
+ .debug_str     0x00094fbd      0x1b9 obj/debug/sdk/stm/hal/src/stm32l0xx_hal_cortex.o
                               0x7cce9 (size before relaxing)
- .debug_str     0x00095146      0x302 obj/debug/sdk/stm/hal/src/stm32l0xx_hal.o
+ .debug_str     0x00095176      0x302 obj/debug/sdk/stm/hal/src/stm32l0xx_hal.o
                               0x7cee9 (size before relaxing)
- .debug_str     0x00095448      0x14e obj/debug/sdk/stm/hal/src/stm32l0xx_hal_pcd.o
+ .debug_str     0x00095478      0x14e obj/debug/sdk/stm/hal/src/stm32l0xx_hal_pcd.o
                               0x7cf6f (size before relaxing)
- .debug_str     0x00095596      0xbee obj/debug/sdk/stm/hal/src/stm32l0xx_hal_tim.o
+ .debug_str     0x000955c6      0xbee obj/debug/sdk/stm/hal/src/stm32l0xx_hal_tim.o
                               0x7d8c0 (size before relaxing)
- .debug_str     0x00096184      0xe9a obj/debug/sdk/stm/spirit1/src/SPIRIT_Radio.o
+ .debug_str     0x000961b4      0xe9a obj/debug/sdk/stm/spirit1/src/SPIRIT_Radio.o
                               0x139a0 (size before relaxing)
- .debug_str     0x0009701e      0x31a obj/debug/sdk/stm/spirit1/src/SPIRIT_Timer.o
+ .debug_str     0x0009704e      0x31a obj/debug/sdk/stm/spirit1/src/SPIRIT_Timer.o
                               0x12951 (size before relaxing)
- .debug_str     0x00097338       0x23 obj/debug/sdk/stm/spirit1/src/SPIRIT_Types.o
+ .debug_str     0x00097368       0x23 obj/debug/sdk/stm/spirit1/src/SPIRIT_Types.o
                                0xc381 (size before relaxing)
- .debug_str     0x0009735b      0x896 obj/debug/sdk/stm/spirit1/src/SPIRIT_PktCommon.o
+ .debug_str     0x0009738b      0x896 obj/debug/sdk/stm/spirit1/src/SPIRIT_PktCommon.o
                                0xdd2d (size before relaxing)
- .debug_str     0x00097bf1      0x176 obj/debug/sdk/stm/spirit1/src/SPIRIT_PktBasic.o
+ .debug_str     0x00097c21      0x176 obj/debug/sdk/stm/spirit1/src/SPIRIT_PktBasic.o
                                0xe70e (size before relaxing)
- .debug_str     0x00097d67      0x392 obj/debug/sdk/stm/spirit1/src/SPIRIT_Qi.o
+ .debug_str     0x00097d97      0x392 obj/debug/sdk/stm/spirit1/src/SPIRIT_Qi.o
                                0xcbd1 (size before relaxing)
- .debug_str     0x000980f9      0x344 obj/debug/sdk/stm/spirit1/src/SPIRIT_Gpio.o
+ .debug_str     0x00098129      0x344 obj/debug/sdk/stm/spirit1/src/SPIRIT_Gpio.o
                                0xd8a1 (size before relaxing)
- .debug_str     0x0009843d      0x18d obj/debug/sdk/stm/spirit1/src/SPIRIT_Management.o
+ .debug_str     0x0009846d      0x18d obj/debug/sdk/stm/spirit1/src/SPIRIT_Management.o
                               0x12921 (size before relaxing)
- .debug_str     0x000985ca      0x1b0 obj/debug/sdk/stm/spirit1/src/SPIRIT_LinearFifo.o
+ .debug_str     0x000985fa      0x1b0 obj/debug/sdk/stm/spirit1/src/SPIRIT_LinearFifo.o
                                0xc564 (size before relaxing)
- .debug_str     0x0009877a       0x3d obj/debug/sdk/stm/spirit1/src/SPIRIT_Commands.o
+ .debug_str     0x000987aa       0x3d obj/debug/sdk/stm/spirit1/src/SPIRIT_Commands.o
                                0xca59 (size before relaxing)
- .debug_str     0x000987b7      0x106 obj/debug/sdk/stm/spirit1/src/SPIRIT_Calibration.o
+ .debug_str     0x000987e7      0x106 obj/debug/sdk/stm/spirit1/src/SPIRIT_Calibration.o
                                0xc583 (size before relaxing)
- .debug_str     0x000988bd       0xa5 obj/debug/sdk/stm/spirit1/src/SPIRIT_Irq.o
+ .debug_str     0x000988ed       0xa5 obj/debug/sdk/stm/spirit1/src/SPIRIT_Irq.o
                                0xcc69 (size before relaxing)
- .debug_str     0x00098962       0xa5 obj/debug/sdk/stm/usb/src/usbd_ioreq.o
+ .debug_str     0x00098992       0xa5 obj/debug/sdk/stm/usb/src/usbd_ioreq.o
                               0x7d5f8 (size before relaxing)
- .debug_str     0x00098a07      0x137 obj/debug/sdk/stm/usb/src/usbd_ctlreq.o
+ .debug_str     0x00098a37      0x137 obj/debug/sdk/stm/usb/src/usbd_ctlreq.o
                               0x7d6cb (size before relaxing)
- .debug_str     0x00098b3e       0x7f obj/debug/sdk/stm/usb/src/usbd_core.o
+ .debug_str     0x00098b6e       0x7f obj/debug/sdk/stm/usb/src/usbd_core.o
                               0x7d7b1 (size before relaxing)
- .debug_str     0x00098bbd       0x9f obj/debug/sdk/sys/src/system_stm32l0xx.o
+ .debug_str     0x00098bed       0x9f obj/debug/sdk/sys/src/system_stm32l0xx.o
                               0x7c8ea (size before relaxing)
- .debug_str     0x00098c5c       0x30 obj/debug/sdk/sys/src/startup_stm32l083xx.o
+ .debug_str     0x00098c8c       0x30 obj/debug/sdk/sys/src/startup_stm32l083xx.o
                                  0x55 (size before relaxing)
 
 .comment        0x00000000       0x7f
