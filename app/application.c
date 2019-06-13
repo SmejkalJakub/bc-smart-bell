@@ -1,5 +1,7 @@
 #include <application.h>
 
+#define BATTERY_UPDATE_INTERVAL (60 * 60 * 1000)
+
 // LED instance
 bc_led_t led;
 
@@ -23,6 +25,26 @@ void button_event_handler(bc_button_t *self, bc_button_event_t event, void *even
     }
 }
 
+void battery_event_handler(bc_module_battery_event_t event, void *event_param)
+{
+    (void) event;
+    (void) event_param;
+
+    float voltage;
+    int percentage;
+
+    if (bc_module_battery_get_voltage(&voltage))
+    {
+        bc_radio_pub_battery(&voltage);
+    }
+
+
+    if (bc_module_battery_get_charge_level(&percentage))
+    {
+        bc_radio_pub_string("%d%", percentage);
+    }
+}
+
 void application_init(void)
 {
     // Initialize Relay Module
@@ -30,6 +52,8 @@ void application_init(void)
 
     // Initialze battery module
     bc_module_battery_init();
+    bc_module_battery_set_event_handler(battery_event_handler, NULL);
+    bc_module_battery_set_update_interval(BATTERY_UPDATE_INTERVAL);
 
     // Initialize radio
     bc_radio_init(BC_RADIO_MODE_NODE_SLEEPING);
