@@ -1,0 +1,6 @@
+article: https://www.hackster.io/154024/bigclown-smart-doorbell-398f3d
+assembly:
+  - name: BigClown Button Module
+  - name: BigClown Relay Module
+  - name: BigClown Core Module
+  - name: BigClown Mini Battery Module
