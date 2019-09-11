@@ -1,5 +1,6 @@
 article: https://www.hackster.io/154024/bigclown-smart-doorbell-398f3d
-- title: BigClown Smart Doorbell
+articles:
+  - title: BigClown Smart Doorbell
     url: https://www.hackster.io/154024/bigclown-smart-doorbell-398f3d
     description: I work a lot in my garage or in the garden, so it happens pretty often that I just don't hear my doorbell. So I made a smart one.
     images:
