@@ -1,10 +1,10 @@
-article: https://www.hackster.io/154024/bigclown-smart-doorbell-398f3d
+article: https://www.hackster.io/154024/hardwario-iot-kit-smart-doorbell-398f3d
 articles:
-  - title: BigClown Smart Doorbell
-    url: https://www.hackster.io/154024/bigclown-smart-doorbell-398f3d
+  - title: HARDWARIO IoT Kit Smart Doorbell
+    url: https://www.hackster.io/154024/hardwario-iot-kit-smart-doorbell-398f3d
     description: I work a lot in my garage or in the garden, so it happens pretty often that I just don't hear my doorbell. So I made a smart one.
     images:
-      - url: https://hackster.imgix.net/uploads/attachments/888469/zvonek_(1)_lPQAZYvNmV.png?auto=compress%2Cformat&w=900&h=675&fit=min
+      - url: https://hackster.imgix.net/uploads/attachments/1050355/_YUYwL4v24p.blob?auto=compress%2Cformat&w=900&h=675&fit=min
 assembly:
   - name: BigClown Button Module
   - name: BigClown Relay Module
